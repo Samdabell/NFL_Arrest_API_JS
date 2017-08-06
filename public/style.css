@@ -1,0 +1,46 @@
+body{
+  font-family: 'Playfair Display SC', serif;
+  background: #003399;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+h1{
+  font-size: 5em;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+button{
+  border-radius: 10px;
+}
+
+.menu:hover{
+  background: #b30000;
+}
+
+.menu{
+  font-family: 'Playfair Display SC', serif;
+  background: #ff0000;
+  color: #ffffff;
+  font-size: 1.25em;
+}
+
+#shield{
+  height: 10em;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+}

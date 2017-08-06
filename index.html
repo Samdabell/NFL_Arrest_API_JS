@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NFL Top Player Arrests</title>
+    <script src='app.js'></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div id="title">
+        <img src="https://www.zitomedia.net/wp-content/uploads/2015/10/NFL-logo.png" alt="NFL Shield" id='shield'>
+        <h1>Player Arrests</h1>
+      </div>
+
+      <div id="options">
+        <select id='category-select' class='menu'>
+          <option disable selected>Select a Category</option>
+          <option value="Team_name">Team</option>
+          <option value="Position">Position</option>
+          <option value="arrest_count">Number of Arrests</option>
+        </select>
+        <select id="list-select" class='menu'>
+          <option disable>Select something to view</option>
+        </select>
+        <button id="select-all" class='menu'>Show All Players</button>
+        <button id="clear" class='menu'>Clear List</button>
+      </div>
+
+      <ul id="player-list">
+
+      </ul>
+    </main>
+  </body>
+</html>
